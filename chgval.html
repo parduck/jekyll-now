@@ -1,0 +1,41 @@
+<html>
+<head>
+<script language="javascript">
+        var camel2under=function(str){
+            return str.replace(/([A-Z])/g, function(arg){
+                return "_"+arg.toLowerCase();
+            }).toUpperCase();
+        }
+
+        var under2camel=function(str){
+            return str.toLowerCase().replace(/(\_[a-z])/g, function(arg){
+                return arg.toUpperCase().replace('_','');
+            });
+        }
+        
+        var flag = 1;
+
+        function toggle(form)
+        {
+            
+            if( flag == 1 ){ 
+                form.text.value = under2camel(form.text.value);
+                flag = 0;
+            } else {
+                form.text.value = under2camel(form.text.value);
+                flag = 1;
+            }
+            form.text.focus();
+        
+        }
+    </script>
+</head>
+<body>
+     <form name="casForm">
+      
+         <input type="button" name="button" value="trans" onclick="toggle(this.form);"><br />
+        <textarea name="text" cols="70" rows="30"></textarea>
+      
+    </form>
+</body>
+</html>
