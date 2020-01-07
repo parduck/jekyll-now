@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+SW Programmer & SW Architect
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+make and operate service for user.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[parduck.github.io](mailto:videoal@gmail.com)
