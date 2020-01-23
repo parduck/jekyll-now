@@ -8,12 +8,11 @@ category: dev
 처음 remote저장소(github)에서 로컬에 소스를 당겨올때.
 pull 하면 merge 관련 오류등이 나는 경우.
 
-{% highlight git %}
- git fetch -all
- git reset --hard origin/master
-{% endhighlight %}
+> git fetch --all
+> git reset --hard origin/master
 
-1. git fetch -all
+
+1. git fetch --all
 최신 remote 소스를 merge나 rebase 없이 다운로드함
 
 [fetch](https://git-scm.com/book/ko/v1/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EB%B8%8C%EB%9E%9C%EC%B9%98)
