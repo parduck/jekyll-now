@@ -9,15 +9,16 @@ category: dev
 pull 하면 merge 관련 오류등이 나는 경우.
 
 > git fetch --all
+>
 > git reset --hard origin/master
 
 
-1. git fetch --all
+* git fetch --all
 최신 remote 소스를 merge나 rebase 없이 다운로드함
 
 [fetch](https://git-scm.com/book/ko/v1/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EB%B8%8C%EB%9E%9C%EC%B9%98)
 
-2. git reset --hard origin/master
+* git reset --hard origin/master
 마스터 브랜치를 fetch해온 정보로 reset 함. 
 예전 정보(commit or staged)는 날라감.
 stash와 commit을 하거나 branch를 만들어 놓아 기존 소스 날리는 것을 방지.
